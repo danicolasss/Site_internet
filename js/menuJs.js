@@ -8,7 +8,7 @@ const thirdLink = document.getElementById("2")
 const fourthLink = document.getElementById("3")
 const fifthLink = document.getElementById("4")
 const sixthLink = document.getElementById("5")
-
+e
 const linksArray = [firstLink,secondLink,thirdLink,fourthLink,fifthLink,sixthLink]
 console.log(fifthLink("baseUri"))
 linksArray.forEach(Element=>{
