@@ -1,3 +1,8 @@
+<?php
+require_once "../item/card/card.php"
+
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -11,6 +16,13 @@
     <title>Mon portofolio</title>
 </head>
 <body>
+
+<?php
+echo card("/media/screenshotmeteo.jpg","App méteo","Javascript html/css api","hello world");
+echo card("/media/screenshotmeteo.jpg","App méteo","Javascript html/css api","hello world");
+echo card("/media/screenshotmeteo.jpg","App méteo","Javascript html/css api","hello world");
+
+?>
 
 
 
